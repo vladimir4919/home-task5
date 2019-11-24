@@ -25,7 +25,7 @@ def conduct_quiz(n_st): #n_st-этапы викторины
         else:
             print("Неверно. Правильный ответ: {}".format(birthdays[person][1]))
 
-    print ("\nВерных ответов: {} ({}%)".format(n, 100 * n / n_st))
+    print("\nВерных ответов: {} ({}%)".format(n, 100 * n / n_st))
     n_failed = n_st - n
     print ("Неверных ответов: {} ({}%)".format(n_failed, 100 * n_failed / n_st))
 
